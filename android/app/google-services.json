@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "498372485287",
+    "project_id": "flutter-crud-119ce",
+    "storage_bucket": "flutter-crud-119ce.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:498372485287:android:101f95485d5d49bcf53b82",
+        "android_client_info": {
+          "package_name": "com.example.contacts_crud_flutter"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "498372485287-huu7dii0inl5i32lkjjsf34ar1r2npod.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSpGCpGBTwToKTxMK9Qq6XSoIIhyLcaPk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "498372485287-huu7dii0inl5i32lkjjsf34ar1r2npod.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
