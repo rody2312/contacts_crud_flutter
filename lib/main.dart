@@ -1,3 +1,5 @@
+import 'package:contacts_crud_flutter/pages/add_contact_page.dart';
+import 'package:contacts_crud_flutter/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
 // Importaciones de Firebase
@@ -20,14 +22,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'Material App',
-      home: Scaffold(
-        appBar: AppBar(
-          title: const Text('Material App Bar'),
-        ),
-        body: const Center(
-          child: Text('Hello World'),
-        ),
-      ),
+      initialRoute: '/',
+      routes: {
+        '/': (context) => const Home(),
+        '/add': (context) => const AddContactPage(),
+      },
     );
   }
 }
