@@ -1,4 +1,5 @@
 import 'package:contacts_crud_flutter/pages/add_contact_page.dart';
+import 'package:contacts_crud_flutter/pages/edit_contact_page.dart';
 import 'package:contacts_crud_flutter/pages/home_page.dart';
 import 'package:flutter/material.dart';
 
@@ -26,6 +27,7 @@ class MyApp extends StatelessWidget {
       routes: {
         '/': (context) => const Home(),
         '/add': (context) => const AddContactPage(),
+        '/edit': (context) => const EditContactPage(),
       },
     );
   }
